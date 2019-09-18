@@ -31,7 +31,6 @@ public class JavaMail {
 		Session session = Session.getInstance(props, auth);
 		System.out.println(222222);
 		System.out.println(33);
-		System.out.println(4444444);
 		// 2.创建一个Message，它相当于是邮件内容
 		MimeMessage message = new MimeMessage(session);
 		// 设置发送者
